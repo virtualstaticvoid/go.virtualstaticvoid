@@ -1,3 +1,4 @@
+GHUSER:=virtualstaticvoid
 CNAME:=$(shell cat CNAME)
 PACKAGES:=$(shell cat packages)
 
@@ -12,4 +13,4 @@ build: $(PACKAGES)
 
 $(PACKAGES):
 	@echo $@
-	@sed 's/CNAME/$(CNAME)/g;s/PACKAGE_NAME/$@/g' _template.html > $@.html
+	@sed 's/GHUSER/$(GHUSER)/g;s/CNAME/$(CNAME)/g;s/PACKAGE_NAME/$@/g' _template.html > $@.html

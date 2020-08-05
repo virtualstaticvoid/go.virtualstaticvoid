@@ -2,7 +2,7 @@
 
 This project uses GitHub Pages to serve up redirects for my go project imports.
 
-See the [remote import paths][remote_import_paths] documentation for how this works.
+See the [remote import paths][remote_import_paths] and [go-source][go_source] documentation for how this works.
 
 ## Usage
 
@@ -23,3 +23,4 @@ MIT License. Copyright (c) 2020 Chris Stefano. See [LICENSE](LICENSE) for detail
 
 <!-- link -->
 [remote_import_paths]: https://golang.org/cmd/go/#hdr-Remote_import_paths
+[go_source]: https://github.com/golang/gddo/commit/c1238e17b0da4c0a6974426f329dee2520f8f12d
